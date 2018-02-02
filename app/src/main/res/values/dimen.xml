@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text -->
+    <dimen name="textSize1">16sp</dimen>
+
+    <!-- Margin and padding -->
+    <dimen name="margin1">5dp</dimen>
+    <dimen name="margin2">10dp</dimen>
+    <dimen name="margin3">20dp</dimen>
+    <dimen name="margin4">35dp</dimen>
+
+    <dimen name="padding1">5dp</dimen>
+    <dimen name="padding2">10dp</dimen>
+
+    <dimen name="size_weigh">60dp</dimen>
+    <dimen name="size_heiht">90dp</dimen>
+
+</resources>

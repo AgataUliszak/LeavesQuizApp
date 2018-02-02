@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LeavesQuizzApp</string>
+    <string name="enter_name">Please enter your name</string>
+    <string name="name">Name</string>
+
+    <string name="q1">What type of tree did this leaf come from?</string>
+    <string name="q2">Name</string>
+
+    <string name="q1_a1">Oak (Quercus sp.)</string>
+    <string name="q1_a2">European beech (Fagus sylvaticus) </string>
+    <string name="q1_a3">Lime (Tilia sp.)</string>
+    <string name="q1_a4">Ash (Fraxinus exelsior)</string>
+
+    <string name="q2_a1">Malp (Acer sp.)</string>
+    <string name="q2_a2">European beech (Fagus sylvaticus) </string>
+    <string name="q2_a3">birch-tree (Betula pendula)</string>
+    <string name="q2_a4">Hornbeam (Carpinus betulus)</string>
+</resources>

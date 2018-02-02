@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    style="@style/mainMatchParent"
+    android:background="#fffde7"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/layout"
+        android:background="@drawable/layout_style_1">
+        <TextView
+            style="@style/textQuestion"
+            android:text="@string/enter_name"/>
+        <EditText
+            android:id="@+id/user_name"
+            style="@style/textAnswer"
+            android:hint="@string/name"
+            android:inputType="textCapWords"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout"
+        android:background="@drawable/layout_style_2">
+
+        <TextView
+            style="@style/textQuestion"
+            android:text="@string/q1" />
+
+        <ImageView
+            style="@style/imageView"
+            android:layout_marginLeft="@dimen/margin4"
+            android:layout_marginRight="@dimen/margin4"
+            android:src="@drawable/fagus" />
+        <RadioGroup
+            android:id="@+id/set1"
+            style="@style/mainView">
+
+            <RadioButton
+                android:id="@+id/q1_a1"
+                style="@style/textAnswer"
+                android:text="@string/q1_a1"/>
+
+            <RadioButton
+                android:id="@+id/q1_a2"
+                style="@style/textAnswer"
+                android:text="@string/q1_a2"/>
+
+            <RadioButton
+                android:id="@+id/q1_a3"
+                style="@style/textAnswer"
+                android:text="@string/q1_a3"/>
+
+            <RadioButton
+                android:id="@+id/q1_4"
+                style="@style/textAnswer"
+                android:text="@string/q1_a4"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout"
+        android:background="@drawable/layout_style_2">
+
+        <TextView
+            style="@style/textQuestion"
+            android:text="@string/q1" />
+
+        <ImageView
+            style="@style/imageView"
+            android:src="@drawable/tilia"
+            android:layout_marginLeft="@dimen/margin4"
+            android:layout_marginRight="@dimen/margin4"/>
+        <RadioGroup
+            android:id="@+id/set2"
+            style="@style/mainView">
+
+            <RadioButton
+                android:id="@+id/q2_a1"
+                style="@style/textAnswer"
+                android:text="@string/q2_a1"/>
+
+            <RadioButton
+                android:id="@+id/q2_a2"
+                style="@style/textAnswer"
+                android:text="@string/q2_a2"/>
+
+            <RadioButton
+                android:id="@+id/q2_a3"
+                style="@style/textAnswer"
+                android:text="@string/q2_a3"/>
+
+            <RadioButton
+                android:id="@+id/q2_a4"
+                style="@style/textAnswer"
+                android:text="@string/q2_a4"/>
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

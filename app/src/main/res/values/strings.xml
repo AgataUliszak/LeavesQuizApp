@@ -2,17 +2,43 @@
     <string name="app_name">LeavesQuizzApp</string>
     <string name="enter_name">Please enter your name</string>
     <string name="name">Name</string>
+    <string name="title">Trees by leaves</string>
+    <string name="tree_name">Type of the tree</string>
+    <string name="result">Check result</string>
+    <string name="reset">Try again</string>
 
-    <string name="q1">What type of tree did this leaf come from?</string>
-    <string name="q2">Name</string>
+    <string name="q">Name</string>
+    <string name="q1">1. Which trees doesn’t shed their leaves on the winter?</string>
+    <string name="q2">2. What type of tree does this leaf come from?</string>
+    <string name="q3">3. What type of tree does this leaf come from?</string>
+    <string name="q4">4. What type of tree does this leaf come from?</string>
+    <string name="q5">5. What type of tree does this leaf come from?</string>
+    <string name="q6">5. What type of tree does this leaf come from?</string>
 
-    <string name="q1_a1">Oak (Quercus sp.)</string>
-    <string name="q1_a2">European beech (Fagus sylvaticus) </string>
-    <string name="q1_a3">Lime (Tilia sp.)</string>
-    <string name="q1_a4">Ash (Fraxinus exelsior)</string>
+    <string name="q1_a1">Pine (Pinus sylvestris)</string>
+    <string name="q1_a2">Poplar (Populus sp.) </string>
+    <string name="q1_a3">Fir (Abies alba)</string>
+    <string name="q1_a4">Larch (Larix decidua)</string>
+    <string name="q1_a5">Spruce (Picea abies)</string>
 
-    <string name="q2_a1">Malp (Acer sp.)</string>
-    <string name="q2_a2">European beech (Fagus sylvaticus) </string>
-    <string name="q2_a3">birch-tree (Betula pendula)</string>
-    <string name="q2_a4">Hornbeam (Carpinus betulus)</string>
+    <string name="q2_a1">Oak (Quercus sp.)</string>
+    <string name="q2_a2">European beech (Fagus sylvatica) </string>
+    <string name="q2_a3">Hornbeam (Carpinus betulus)</string>
+    <string name="q2_a4">Ash (Fraxinus exelsior)</string>
+
+    <string name="q3_a1">Malp (Acer sp.)</string>
+    <string name="q3_a2">European beech (Fagus sylvatica) </string>
+    <string name="q3_a3">Birch-tree (Betula pendula)</string>
+    <string name="q3_a4">Lime (Tilia sp.)</string>
+
+    <string name="q4_a1">Ash (Fraxinus exelsior)</string>
+    <string name="q4_a2">Black poplar (Populus  nigra) </string>
+    <string name="q4_a3">Birch-tree (Betula pendula)</string>
+    <string name="q4_a4">Hornbeam (Carpinus betulus)</string>
+
+    <string name="q5_a1">Willow (Salix alba)</string>
+    <string name="q5_a2">Malp (Acer sp.) </string>
+    <string name="q5_a3">Ash (Fraxinus exelsior)</string>
+    <string name="q5_a4">Birch-tree (Betula pendula)</string>
+
 </resources>

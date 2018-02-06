@@ -39,19 +39,34 @@
     </style>
 
     <style name="textAnswer" parent="mainView">
-        <item name="android:textSize">@dimen/textSize1</item>
-        <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textSize">@dimen/textSize1</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="android:padding">@dimen/padding2</item>
+</style>
+
+    <style name="textTitle" parent="mainView">
+        <item name="android:textSize">@dimen/textSize2</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
         <item name="android:textColor">@color/black</item>
-        <item name="android:padding">@dimen/padding2</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
     </style>
 
     <style name="layout" parent="mainView">
-        <item name="android:layout_marginRight">@dimen/margin1</item>
-        <item name="android:layout_marginLeft">@dimen/margin1</item>
-        <item name="android:layout_marginTop">@dimen/margin1</item>
+        <item name="android:layout_marginRight">@dimen/margin2</item>
+        <item name="android:layout_marginLeft">@dimen/margin2</item>
+        <item name="android:layout_marginTop">@dimen/margin2</item>
         <item name="android:orientation">vertical</item>
     </style>
 
-
+    <style name="button" parent="mainWrapContent">
+        <item name="android:layout_marginRight">@dimen/margin2</item>
+        <item name="android:layout_marginLeft">@dimen/margin2</item>
+        <item name="android:layout_marginTop">@dimen/margin2</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
 
 </resources>

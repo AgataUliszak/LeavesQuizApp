@@ -30,22 +30,13 @@ public class MainActivity extends AppCompatActivity {
     private EditText treeName;
     Button result;
     Button reset;
-<<<<<<< HEAD
-    private int score = 0;
-=======
-
     int score = 0;
->>>>>>> 88413e7d6c238dec73b0ac1ea4ce35e4957d7e6d
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
         //initialization of global variables
-=======
-//initialization of global variables
->>>>>>> 88413e7d6c238dec73b0ac1ea4ce35e4957d7e6d
         userName = (findViewById(R.id.user_name));
         treeName = (findViewById(R.id.tree_name));
         rightAnswer1_1 = (findViewById(R.id.q1_a1));
@@ -63,15 +54,12 @@ public class MainActivity extends AppCompatActivity {
         radioGroup5 = (findViewById(R.id.set5));
         result = (findViewById(R.id.result_button));
         reset = (findViewById(R.id.reset_button));
-<<<<<<< HEAD
-=======
     }
 
     @Override
     protected void onSaveInstanceState(Bundle savedInstanceState) {
         savedInstanceState.putInt("score", score);
         super.onSaveInstanceState(savedInstanceState);
->>>>>>> 88413e7d6c238dec73b0ac1ea4ce35e4957d7e6d
     }
 
     @Override
@@ -83,14 +71,9 @@ public class MainActivity extends AppCompatActivity {
     }
     //This method checks the answers and calculate the given for user scores.
     public int calculateScore() {
-<<<<<<< HEAD
         /**for check box questions we check if the all correct answer is checked. If it's true increase
          *score to one
          */
-=======
-        //for check box questions we check if the all correct answer is checked. If it's true increase
-        //score to one
->>>>>>> 88413e7d6c238dec73b0ac1ea4ce35e4957d7e6d
         if (rightAnswer1_1.isChecked() && !wrongAnswer1_2.isChecked() && rightAnswer1_3.isChecked() &&
                 !wrongAnswer1_4.isChecked() && rightAnswer1_5.isChecked()) {
             score++;
@@ -98,14 +81,9 @@ public class MainActivity extends AppCompatActivity {
             rightAnswer1_3.setBackgroundColor(Color.parseColor("#e0e0e0"));
             rightAnswer1_5.setBackgroundColor(Color.parseColor("#e0e0e0"));
         }
-<<<<<<< HEAD
         /**for radio button questions we check if the only one correct answer is checked. If it's true increase
          *score to one
          */
-=======
-        //for radio button questions we check if the only one correct answer is checked. If it's true increase
-        //score to one
->>>>>>> 88413e7d6c238dec73b0ac1ea4ce35e4957d7e6d
         if (rightAnswer2.isChecked()) {
             score++;
             rightAnswer2.setBackgroundColor(Color.parseColor("#e0e0e0"));
@@ -135,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
 
     //This method shows the result of the quiz.
     public void checkResult(View v) {
-<<<<<<< HEAD
         score=0;
         int finalScore = calculateScore();
         String name = userName.getText().toString();
@@ -148,12 +125,6 @@ public class MainActivity extends AppCompatActivity {
         } else
             Toast.makeText(this, name + "! Your score is " + finalScore + "/6 points. " +
                     "Good job! You are expert!", Toast.LENGTH_LONG).show();
-=======
-        int finalScore = calculateScore();
-        String name = userName.getText().toString();
-        Toast.makeText(this, name + "! Your score is " + finalScore + "/6 points", Toast.LENGTH_LONG).show();
-        score = 0;
->>>>>>> 88413e7d6c238dec73b0ac1ea4ce35e4957d7e6d
     }
 
     //This method reset given input
@@ -169,7 +140,6 @@ public class MainActivity extends AppCompatActivity {
         radioGroup3.clearCheck();
         radioGroup4.clearCheck();
         radioGroup5.clearCheck();
-<<<<<<< HEAD
         rightAnswer1_1.setBackgroundColor(Color.TRANSPARENT);
         rightAnswer1_3.setBackgroundColor(Color.TRANSPARENT);
         rightAnswer1_5.setBackgroundColor(Color.TRANSPARENT);
@@ -177,8 +147,6 @@ public class MainActivity extends AppCompatActivity {
         rightAnswer3.setBackgroundColor(Color.TRANSPARENT);
         rightAnswer4.setBackgroundColor(Color.TRANSPARENT);
         treeName.setBackgroundColor(Color.TRANSPARENT);
-=======
->>>>>>> 88413e7d6c238dec73b0ac1ea4ce35e4957d7e6d
         treeName.setText("");
     }
 }

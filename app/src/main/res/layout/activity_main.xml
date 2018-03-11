@@ -9,22 +9,27 @@
         android:background="@color/background"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/tree"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:paddingTop="@dimen/padding2"
-            android:src="@drawable/title2" />
+            android:layout_height="@dimen/size_height1"
+            android:layout_marginTop="@dimen/margin1">
 
-        <TextView
-            style="@style/textTitle"
-            android:text="@string/title" />
-
+            <ImageView
+                android:id="@+id/tree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tree3" />
+            <TextView
+                style="@style/textTitle"
+                android:layout_alignBottom="@id/tree"
+                android:layout_marginBottom="@dimen/margin6"
+                android:text="@string/title" />
+        </RelativeLayout>
 
         <LinearLayout
             style="@style/layout"
-            android:layout_marginTop="@dimen/margin0"
+            android:layout_marginTop="@dimen/margin2"
             android:background="@drawable/layout_style">
 
             <TextView
@@ -262,8 +267,8 @@
                 android:id="@+id/result_button"
                 style="@style/button"
                 android:layout_marginLeft="@dimen/margin4"
-                android:text="@string/result"
-                android:onClick="checkResult"/>
+                android:onClick="checkResult"
+                android:text="@string/result" />
 
             <Button
                 android:id="@+id/reset_button"
